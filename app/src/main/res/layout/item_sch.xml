@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_margin="6dp">
+
+
+    <!-- ImageView  -->
+    <ImageView
+        android:id="@+id/img_sch"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <!-- TextView Nama hewan  -->
+        <TextView
+            android:id="@+id/sch_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Nama Hewan"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- TextView deskripsi hewan  -->
+        <TextView
+            android:id="@+id/sch_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi "
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</LinearLayout>
